@@ -14,6 +14,8 @@ namespace Pet_Care___Login
         protected SqlConnection getConnection()
         {
             SqlConnection con       = new SqlConnection();
+
+            /* Modificar esta área para a conexão local do seu banco de dados */
             con.ConnectionString    = "data source =DESKTOP-GJ8HRSA\\SQLEXPRESS;database = PetCare; integrated security = True";
             return con;
         }
