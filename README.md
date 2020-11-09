@@ -88,6 +88,8 @@ $ git clone https://github.com/savio-2-lopes/Pet_Notion.git
 # Ou apenas clicar no arquivo que o arquivo será aberto no Visual Studio Community
 $ Pet Care - Login.sln
 
+# Crie um database usando o SQL Server com nome de PetCare utilizando o código PetCare.sql
+
 ```
 
 <br>
