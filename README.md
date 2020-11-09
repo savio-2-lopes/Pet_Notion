@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img alt="PetNotion" title="#PetNotion" src="./assets/teste.gif" width="600px">
+  <img alt="PetNotion" title="#PetNotion" src="./assets/test.gif" width="600px">
 </h3>
 
 
@@ -48,7 +48,7 @@
 ## 🎨 Layout
 
 <p align="center"> 
-  <img alt="PetNotion" title="#PetNotion" src="./assets/teste.gif"  width="400px">
+  <img alt="PetNotion" title="#PetNotion" src="./assets/test.gif"  width="400px">
 </p>
  
 <br>
