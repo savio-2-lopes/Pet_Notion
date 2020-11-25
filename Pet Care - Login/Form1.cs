@@ -67,5 +67,10 @@ namespace Pet_Care___Login
             Register register = new Register();
             register.ShowDialog();
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

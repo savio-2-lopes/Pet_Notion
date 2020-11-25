@@ -38,10 +38,7 @@ namespace Pet_Care___Login.AllUserControls
             guna2DataGridView1.DataSource = ds.Tables[0];
         }
 
-        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e){}
 
         int id;
         private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -65,9 +62,7 @@ namespace Pet_Care___Login.AllUserControls
             txtRefeicoes.Text       = quantidade_refeicoes_dia;
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-        }
+        private void btnUpdate_Click(object sender, EventArgs e){}
 
         private void btnEditar_Click(object sender, EventArgs e)
         {

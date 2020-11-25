@@ -20,54 +20,25 @@ namespace Pet_Care___Login.AllUserControls
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+        private void label2_Click(object sender, EventArgs e){}
 
-        }
+        private void label7_Click(object sender, EventArgs e){}
 
-        private void label7_Click(object sender, EventArgs e)
-        {
+        private void label1_Click(object sender, EventArgs e){}
 
-        }
+        private void UC_AddPets_Load(object sender, EventArgs e){}
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        private void label4_Click(object sender, EventArgs e){}
 
-        }
+        private void label3_Click(object sender, EventArgs e){}
 
-        private void UC_AddPets_Load(object sender, EventArgs e)
-        {
+        private void label8_Click(object sender, EventArgs e){}
 
-        }
+        private void label6_Click(object sender, EventArgs e){}
 
-        private void label4_Click(object sender, EventArgs e)
-        {
+        private void label5_Click(object sender, EventArgs e){}
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAddPets_Click(object sender, EventArgs e)
-        {
-        }
+        private void btnAddPets_Click(object sender, EventArgs e){}
 
         public void clearAll()
         {
@@ -96,7 +67,6 @@ namespace Pet_Care___Login.AllUserControls
             query = "INSERT INTO pet (nome,sexo,raca,vermifugacao,vacinas,peso,quantidade_refeicoes_dia) VALUES " + "('" + txtNome.Text + "', '" + txtSexo.Text + "', '" + txtRaca.Text + "', '" + txtData.Text + "', '" + txtVacina.Text + "', '" + txtPeso.Text + "', '" + txtQuantidade.Text + "')";
             fn.setData(query);
             clearAll();
-
         }
 
         private void txtVacina_SelectedIndexChanged(object sender, EventArgs e){}

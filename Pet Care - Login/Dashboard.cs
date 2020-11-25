@@ -25,12 +25,16 @@ namespace Pet_Care___Login
                 btnAddPets.Hide();
                 btnUpdate.Hide();
                 btnRemove.Hide();
+                btnBot.Hide();
+                btnNew.Hide();
             }
             else if(user == "User")
             {
                 btnAddPets.Show();
                 btnUpdate.Show();
                 btnRemove.Show();
+                btnBot.Show();
+                btnNew.Show();
             }
         }
 
@@ -39,43 +43,29 @@ namespace Pet_Care___Login
             uC_AddPets1.Visible = false;
             uC_UpdatePets1.Visible = false;
             uC_RemovePets1.Visible = false;
+            uC_Chatbot1.Visible = false;
+            uC_News1.Visible = false;
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-           
-        }
+        private void btnExit_Click(object sender, EventArgs e){}
 
-        private void btnLogOut_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
+        private void btnLogOut_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e){}
 
         private void panel1_Paint(object sender, PaintEventArgs e){}
 
-        private void uC_Welcome1_Load(object sender, EventArgs e)
-        {
+        private void uC_Welcome1_Load(object sender, EventArgs e){}
 
-        }
+        private void uC_Welcome1_Load_1(object sender, EventArgs e){}
 
-        private void uC_Welcome1_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAddPets_Click(object sender, EventArgs e)
-        {
+        private void btnAddPets_Click(object sender, EventArgs e){
             uC_AddPets1.Visible = true;
             uC_AddPets1.BringToFront(); 
         }
 
-        private void uC_AddPets1_Load(object sender, EventArgs e)
-        {
-
-        }
+        private void uC_AddPets1_Load(object sender, EventArgs e){}
 
         private void btnPlaceOrder_Click(object sender, EventArgs e)
-        {
+		{
             uC_Welcome1.Visible = true;
             uC_Welcome1.BringToFront();
         }
@@ -107,6 +97,18 @@ namespace Pet_Care___Login
         private void guna2ImageButton4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void guna2ImageButton10_Click(object sender, EventArgs e)
+        {
+            uC_Chatbot1.Visible = true;
+            uC_Chatbot1.BringToFront();
+        }
+
+        private void guna2ImageButton6_Click(object sender, EventArgs e)
+        {
+            uC_News1.Visible = true;
+            uC_News1.BringToFront();
         }
     }
 }

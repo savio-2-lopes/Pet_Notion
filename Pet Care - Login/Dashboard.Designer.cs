@@ -38,23 +38,25 @@
             this.btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             this.btnRemove = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.uC_News1 = new Pet_Care___Login.AllUserControls.UC_News();
+            this.uC_Chatbot1 = new Pet_Care___Login.AllUserControls.UC_Chatbot();
+            this.uC_RemovePets1 = new Pet_Care___Login.AllUserControls.UC_RemovePets();
+            this.uC_UpdatePets1 = new Pet_Care___Login.AllUserControls.UC_UpdatePets();
+            this.uC_AddPets1 = new Pet_Care___Login.AllUserControls.UC_AddPets();
+            this.uC_Welcome1 = new Pet_Care___Login.AllUserControls.UC_Welcome();
+            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnNoti = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnFeed = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnNoti = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnFeed = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton9 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.uC_Welcome1 = new Pet_Care___Login.AllUserControls.UC_Welcome();
-            this.uC_AddPets1 = new Pet_Care___Login.AllUserControls.UC_AddPets();
-            this.uC_UpdatePets1 = new Pet_Care___Login.AllUserControls.UC_UpdatePets();
-            this.uC_RemovePets1 = new Pet_Care___Login.AllUserControls.UC_RemovePets();
+            this.btnNew = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnBot = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -193,6 +195,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.panel2.Controls.Add(this.uC_News1);
+            this.panel2.Controls.Add(this.uC_Chatbot1);
             this.panel2.Controls.Add(this.uC_RemovePets1);
             this.panel2.Controls.Add(this.uC_UpdatePets1);
             this.panel2.Controls.Add(this.uC_AddPets1);
@@ -205,24 +209,53 @@
             this.panel2.Size = new System.Drawing.Size(765, 444);
             this.panel2.TabIndex = 1;
             // 
-            // guna2Elipse1
+            // uC_News1
             // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
+            this.uC_News1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_News1.Location = new System.Drawing.Point(0, 0);
+            this.uC_News1.Name = "uC_News1";
+            this.uC_News1.Size = new System.Drawing.Size(781, 514);
+            this.uC_News1.TabIndex = 29;
             // 
-            // guna2Elipse2
+            // uC_Chatbot1
             // 
-            this.guna2Elipse2.BorderRadius = 30;
-            this.guna2Elipse2.TargetControl = this.panel2;
+            this.uC_Chatbot1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_Chatbot1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Chatbot1.Name = "uC_Chatbot1";
+            this.uC_Chatbot1.Size = new System.Drawing.Size(781, 514);
+            this.uC_Chatbot1.TabIndex = 28;
             // 
-            // guna2Elipse3
+            // uC_RemovePets1
             // 
-            this.guna2Elipse3.BorderRadius = 30;
-            this.guna2Elipse3.TargetControl = this.panel2;
+            this.uC_RemovePets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_RemovePets1.Location = new System.Drawing.Point(-7, -93);
+            this.uC_RemovePets1.Name = "uC_RemovePets1";
+            this.uC_RemovePets1.Size = new System.Drawing.Size(781, 514);
+            this.uC_RemovePets1.TabIndex = 27;
             // 
-            // guna2Elipse4
+            // uC_UpdatePets1
             // 
-            this.guna2Elipse4.BorderRadius = 30;
+            this.uC_UpdatePets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_UpdatePets1.Location = new System.Drawing.Point(0, 34);
+            this.uC_UpdatePets1.Name = "uC_UpdatePets1";
+            this.uC_UpdatePets1.Size = new System.Drawing.Size(781, 514);
+            this.uC_UpdatePets1.TabIndex = 26;
+            // 
+            // uC_AddPets1
+            // 
+            this.uC_AddPets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_AddPets1.Location = new System.Drawing.Point(-7, 3);
+            this.uC_AddPets1.Name = "uC_AddPets1";
+            this.uC_AddPets1.Size = new System.Drawing.Size(781, 514);
+            this.uC_AddPets1.TabIndex = 25;
+            // 
+            // uC_Welcome1
+            // 
+            this.uC_Welcome1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.uC_Welcome1.Location = new System.Drawing.Point(-7, -9);
+            this.uC_Welcome1.Name = "uC_Welcome1";
+            this.uC_Welcome1.Size = new System.Drawing.Size(781, 514);
+            this.uC_Welcome1.TabIndex = 24;
             // 
             // guna2ImageButton8
             // 
@@ -275,6 +308,25 @@
             this.btnFeed.PressedState.Parent = this.btnFeed;
             this.btnFeed.Size = new System.Drawing.Size(44, 39);
             this.btnFeed.TabIndex = 21;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 30;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 30;
+            this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 30;
+            this.guna2Elipse3.TargetControl = this.panel2;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.BorderRadius = 30;
             // 
             // guna2ImageButton1
             // 
@@ -346,72 +398,43 @@
             this.guna2ImageButton4.TabIndex = 32;
             this.guna2ImageButton4.Click += new System.EventHandler(this.guna2ImageButton4_Click);
             // 
-            // guna2ImageButton6
+            // btnNew
             // 
-            this.guna2ImageButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.CheckedState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(0, 0);
-            this.guna2ImageButton6.HoverState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton6.Image")));
-            this.guna2ImageButton6.ImageRotate = 0F;
-            this.guna2ImageButton6.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2ImageButton6.Location = new System.Drawing.Point(875, 7);
-            this.guna2ImageButton6.Name = "guna2ImageButton6";
-            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(0, 0);
-            this.guna2ImageButton6.PressedState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Size = new System.Drawing.Size(44, 39);
-            this.guna2ImageButton6.TabIndex = 33;
+            this.btnNew.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnNew.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnNew.CheckedState.Parent = this.btnNew;
+            this.btnNew.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNew.HoverState.ImageSize = new System.Drawing.Size(0, 0);
+            this.btnNew.HoverState.Parent = this.btnNew;
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.ImageRotate = 0F;
+            this.btnNew.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnNew.Location = new System.Drawing.Point(875, 7);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.PressedState.ImageSize = new System.Drawing.Size(0, 0);
+            this.btnNew.PressedState.Parent = this.btnNew;
+            this.btnNew.Size = new System.Drawing.Size(44, 39);
+            this.btnNew.TabIndex = 33;
+            this.btnNew.Click += new System.EventHandler(this.guna2ImageButton6_Click);
             // 
-            // guna2ImageButton9
+            // btnBot
             // 
-            this.guna2ImageButton9.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton9.CheckedState.Parent = this.guna2ImageButton9;
-            this.guna2ImageButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton9.HoverState.ImageSize = new System.Drawing.Size(0, 0);
-            this.guna2ImageButton9.HoverState.Parent = this.guna2ImageButton9;
-            this.guna2ImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton9.Image")));
-            this.guna2ImageButton9.ImageRotate = 0F;
-            this.guna2ImageButton9.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2ImageButton9.Location = new System.Drawing.Point(815, 7);
-            this.guna2ImageButton9.Name = "guna2ImageButton9";
-            this.guna2ImageButton9.PressedState.ImageSize = new System.Drawing.Size(0, 0);
-            this.guna2ImageButton9.PressedState.Parent = this.guna2ImageButton9;
-            this.guna2ImageButton9.Size = new System.Drawing.Size(44, 39);
-            this.guna2ImageButton9.TabIndex = 31;
-            // 
-            // uC_Welcome1
-            // 
-            this.uC_Welcome1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.uC_Welcome1.Location = new System.Drawing.Point(-7, -9);
-            this.uC_Welcome1.Name = "uC_Welcome1";
-            this.uC_Welcome1.Size = new System.Drawing.Size(781, 514);
-            this.uC_Welcome1.TabIndex = 24;
-            // 
-            // uC_AddPets1
-            // 
-            this.uC_AddPets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.uC_AddPets1.Location = new System.Drawing.Point(-7, 3);
-            this.uC_AddPets1.Name = "uC_AddPets1";
-            this.uC_AddPets1.Size = new System.Drawing.Size(781, 514);
-            this.uC_AddPets1.TabIndex = 25;
-            // 
-            // uC_UpdatePets1
-            // 
-            this.uC_UpdatePets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.uC_UpdatePets1.Location = new System.Drawing.Point(0, 34);
-            this.uC_UpdatePets1.Name = "uC_UpdatePets1";
-            this.uC_UpdatePets1.Size = new System.Drawing.Size(781, 514);
-            this.uC_UpdatePets1.TabIndex = 26;
-            // 
-            // uC_RemovePets1
-            // 
-            this.uC_RemovePets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.uC_RemovePets1.Location = new System.Drawing.Point(-7, -93);
-            this.uC_RemovePets1.Name = "uC_RemovePets1";
-            this.uC_RemovePets1.Size = new System.Drawing.Size(781, 514);
-            this.uC_RemovePets1.TabIndex = 27;
+            this.btnBot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBot.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnBot.CheckedState.Parent = this.btnBot;
+            this.btnBot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBot.HoverState.ImageSize = new System.Drawing.Size(0, 0);
+            this.btnBot.HoverState.Parent = this.btnBot;
+            this.btnBot.Image = ((System.Drawing.Image)(resources.GetObject("btnBot.Image")));
+            this.btnBot.ImageRotate = 0F;
+            this.btnBot.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnBot.Location = new System.Drawing.Point(825, 7);
+            this.btnBot.Name = "btnBot";
+            this.btnBot.PressedState.ImageSize = new System.Drawing.Size(0, 0);
+            this.btnBot.PressedState.Parent = this.btnBot;
+            this.btnBot.Size = new System.Drawing.Size(44, 39);
+            this.btnBot.TabIndex = 35;
+            this.btnBot.Click += new System.EventHandler(this.guna2ImageButton10_Click);
             // 
             // Dashboard
             // 
@@ -419,15 +442,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
             this.ClientSize = new System.Drawing.Size(1004, 538);
+            this.Controls.Add(this.btnBot);
             this.Controls.Add(this.guna2ImageButton4);
-            this.Controls.Add(this.guna2ImageButton6);
-            this.Controls.Add(this.guna2ImageButton9);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2ImageButton2);
             this.Controls.Add(this.guna2ImageButton3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
@@ -456,8 +480,7 @@
         private Guna.UI2.WinForms.Guna2ImageButton btnNoti;
         private Guna.UI2.WinForms.Guna2ImageButton btnFeed;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton6;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton9;
+        private Guna.UI2.WinForms.Guna2ImageButton btnNew;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
@@ -465,5 +488,8 @@
         private AllUserControls.UC_AddPets uC_AddPets1;
         private AllUserControls.UC_UpdatePets uC_UpdatePets1;
         private AllUserControls.UC_RemovePets uC_RemovePets1;
+        private Guna.UI2.WinForms.Guna2ImageButton btnBot;
+        private AllUserControls.UC_Chatbot uC_Chatbot1;
+        private AllUserControls.UC_News uC_News1;
     }
 }

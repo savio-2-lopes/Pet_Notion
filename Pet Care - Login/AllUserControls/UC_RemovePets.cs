@@ -62,9 +62,6 @@ namespace Pet_Care___Login.AllUserControls
             loadData();
         }
 
-        private void UC_RemovePets_Enter(object sender, EventArgs e)
-        {
-
-        }
+        private void UC_RemovePets_Enter(object sender, EventArgs e){}
     }
 }

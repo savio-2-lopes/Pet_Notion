@@ -46,10 +46,7 @@ namespace Pet_Care___Login.AllUserControls
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void pictureBox1_Click(object sender, EventArgs e){}
 
         private void UC_Welcome_Load(object sender, EventArgs e)
         {
