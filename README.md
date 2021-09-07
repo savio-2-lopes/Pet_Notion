@@ -3,10 +3,7 @@
 </h3>
 
 
-<p align="center"> 🐾 <strong>PetNotion - 3º ADS</strong> 🚧
- </p>
- 
- <p align="center"> :rocket: <strong>Em Andamento...</strong> 🚧
+<p align="center"> 🐾 <strong>PetNotion</strong> 🚧
  </p>
  
 <br>
