@@ -55,7 +55,7 @@ $ con.ConnectionString = "data source =DESKTOP-(MACHINE-NAME)\\SQLEXPRESS;
 ## 🎨 Layout
 
 <p align="center"> 
-  <img alt="PetNotion" title="#PetNotion" src="./assets/test1.gif"  width="400px">
+  <img alt="PetNotion" title="#PetNotion" src="./assets/test1.gif"  width="600px">
 </p>
  
 <br>
