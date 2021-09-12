@@ -13,8 +13,8 @@ namespace Pet_Care___Login
     {
         protected SqlConnection getConnection()
         {
-            SqlConnection con       = new SqlConnection();
-            con.ConnectionString    = "data source =DESKTOP-GJ8HRSA\\SQLEXPRESS;database = PetCare; integrated security = True";
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "data source = {ADD_MACHINE}\\SQLEXPRESS;database = PetCare; integrated security = True";
             return con;
         }
 
